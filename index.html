@@ -5,13 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Craving</title>
-     <!-- Link to the jQuery Library -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    
+    <!--CSS link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- favicon link -->
+    <link rel="icon" type="image/ico" href="assets/images/favicon.ico">
+   
 </head>
 <body>
+ <div class="container">
+     <div id="title" class="center-align">
+     <h1>Craving</h1>
+     <h5>To eat in or dine out, that is the question!</h5>
+     <h6>Let us help you answer that question.</h6>
+    </div>
+     <div class="row">
+         <div class="col s2">Sidebar</div>
+         <div class="col 10">
+             <div class="row">
+                 <div class="col 6">Recipes</div>
+                    <div id="recipeDiv"></div>
+             </div>
+             <div class="row">
+                <div class="col 6">Restaurants</div>
+                <div id="restaurantDiv"></div>                    
+             </div>             
+         </div>
+     </div>
 
+
+     <div class="row">
+         <div class="footer"></div>
+     </div>
+ </div>
+<!-- Link to the jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- link to javascript -->
+<script src="assets/javascript/main.js"></script>
 <script src="assets/javascript/api-nutrition.js"></script>
 <script src="assets/javascript/api-recipe.js"></script>
 <script src="assets/javascript/api-yelp.js"></script>
+<!-- Materialize JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 </body>
 </html>
+
