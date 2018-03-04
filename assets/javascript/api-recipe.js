@@ -1,4 +1,4 @@
-var queryURL = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?app_key=f40369d36572ddfbde3e84a38ec73019&app_id=35db36fe&q=";
+var queryURL = "https://cors-anywhere.herokuapp.com/http://food2fork.com/api/search?key=4c3b3108cb8ae8b884d83deac5b1a363&q=shredded%20chicken";
 
     $.ajax({
         url: queryURL,
